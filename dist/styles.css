@@ -1,0 +1,433 @@
+/* SMGrupa UI — generirano iz tokens/tokens.json. Ne uređivati ručno. */
+:root,
+[data-theme="smg"] {
+  --akcent: #0b4f68;
+  --akcent-tekst: #0b4f68;
+  --on-akcent-tekst: #ffffff;
+  --akcent-tint: #eef5f8;
+  --smg: #0b4f68;
+  --smg-duboka: #003346;
+  --smg-linija: #84abbe;
+  --smg-tint: #eef5f8;
+  --tvrtka-msan: #e6382f;
+  --tvrtka-king: #a9252a;
+  --tvrtka-abysalto: #005ccc;
+  --tvrtka-aig: #195c59;
+  --tvrtka-aig-zlatna: #b79a0a;
+  --tvrtka-ekupi: #f35132;
+  --ink: #25272c;
+  --ink-soft: #666666;
+  --muted: #69727d;
+  --surface: #ffffff;
+  --surface-alt: #f8f8f8;
+  --surface-inverse: #25272c;
+  --on-inverse: #ffffff;
+  --on-inverse-muted: #c6c7ca;
+  --border: #cccccc;
+  --border-soft: #eeeeee;
+  --semafor-zelena: #0b7146;
+  --semafor-zelena-tekst: var(--semafor-zelena);
+  --semafor-zelena-podloga: #e3f6ea;
+  --semafor-zelena-blijeda: #8cbfa0;
+  --semafor-zelena-prigusena: #476854;
+  --semafor-plava: #215da5;
+  --semafor-plava-tekst: var(--semafor-plava);
+  --semafor-plava-podloga: #e5f1ff;
+  --semafor-plava-blijeda: #93b4dd;
+  --semafor-plava-prigusena: #475f7e;
+  --semafor-zuta: #f7b828;
+  --semafor-zuta-tekst: #955e11;
+  --semafor-zuta-podloga: #f9efde;
+  --semafor-zuta-blijeda: #c7ad7e;
+  --semafor-zuta-prigusena: #7f674d;
+  --semafor-crvena: #ac312c;
+  --semafor-crvena-tekst: var(--semafor-crvena);
+  --semafor-crvena-podloga: #ffeae7;
+  --semafor-crvena-blijeda: #d8a6a0;
+  --semafor-crvena-prigusena: #8b514a;
+  --semafor-neutralna: #9a9a9a;
+  --semafor-neutralna-tekst: var(--muted);
+  --semafor-neutralna-podloga: #ebebeb;
+  --semafor-neutralna-blijeda: #c6c6c6;
+  --data-1: var(--smg);
+  --data-2: var(--smg-linija);
+  --data-3: var(--semafor-neutralna-blijeda);
+  --focus: #0b4f68;
+  --akcent-hover: #003f57;
+  --surface-hover: #f2f3f5;
+  --surface-selected: var(--akcent-tint);
+  --border-control: #7a808a;
+  --ink-disabled: #9a9ea6;
+  --surface-disabled: #f2f3f5;
+  --scrim: rgba(37, 39, 44, 0.48);
+  --status-info-tekst: var(--smg);
+  --status-info-podloga: var(--smg-tint);
+  --status-info-rub: var(--smg-linija);
+  --status-uspjeh-tekst: var(--semafor-zelena);
+  --status-uspjeh-podloga: var(--semafor-zelena-podloga);
+  --status-uspjeh-rub: var(--semafor-zelena-blijeda);
+  --status-upozorenje-tekst: var(--semafor-zuta-tekst);
+  --status-upozorenje-podloga: var(--semafor-zuta-podloga);
+  --status-upozorenje-rub: var(--semafor-zuta);
+  --status-greska-tekst: var(--semafor-crvena);
+  --status-greska-podloga: var(--semafor-crvena-podloga);
+  --status-greska-rub: var(--semafor-crvena-blijeda);
+  --shadow-raised: 0px 1px 2px 0px rgba(37, 39, 44, 0.08);
+  --shadow-overlay: 0px 8px 24px 0px rgba(37, 39, 44, 0.16);
+}
+[data-theme="msan"] {
+  --akcent: #e6382f;
+  --akcent-tekst: #d62524;
+  --akcent-tint: #ffefed;
+  --semafor-zelena-tekst: var(--semafor-zelena);
+  --semafor-plava-tekst: var(--semafor-plava);
+  --semafor-crvena-tekst: var(--semafor-crvena);
+  --semafor-neutralna-tekst: var(--muted);
+  --data-1: var(--smg);
+  --data-2: var(--smg-linija);
+  --data-3: var(--semafor-neutralna-blijeda);
+  --akcent-hover: #c0000a;
+  --surface-selected: var(--akcent-tint);
+  --status-info-tekst: var(--smg);
+  --status-info-podloga: var(--smg-tint);
+  --status-info-rub: var(--smg-linija);
+  --status-uspjeh-tekst: var(--semafor-zelena);
+  --status-uspjeh-podloga: var(--semafor-zelena-podloga);
+  --status-uspjeh-rub: var(--semafor-zelena-blijeda);
+  --status-upozorenje-tekst: var(--semafor-zuta-tekst);
+  --status-upozorenje-podloga: var(--semafor-zuta-podloga);
+  --status-upozorenje-rub: var(--semafor-zuta);
+  --status-greska-tekst: var(--semafor-crvena);
+  --status-greska-podloga: var(--semafor-crvena-podloga);
+  --status-greska-rub: var(--semafor-crvena-blijeda);
+}
+[data-theme="king"] {
+  --akcent: #a9252a;
+  --akcent-tekst: #a9252a;
+  --akcent-tint: #ffefed;
+  --semafor-zelena-tekst: var(--semafor-zelena);
+  --semafor-plava-tekst: var(--semafor-plava);
+  --semafor-crvena-tekst: var(--semafor-crvena);
+  --semafor-neutralna-tekst: var(--muted);
+  --data-1: var(--smg);
+  --data-2: var(--smg-linija);
+  --data-3: var(--semafor-neutralna-blijeda);
+  --akcent-hover: #940618;
+  --surface-selected: var(--akcent-tint);
+  --status-info-tekst: var(--smg);
+  --status-info-podloga: var(--smg-tint);
+  --status-info-rub: var(--smg-linija);
+  --status-uspjeh-tekst: var(--semafor-zelena);
+  --status-uspjeh-podloga: var(--semafor-zelena-podloga);
+  --status-uspjeh-rub: var(--semafor-zelena-blijeda);
+  --status-upozorenje-tekst: var(--semafor-zuta-tekst);
+  --status-upozorenje-podloga: var(--semafor-zuta-podloga);
+  --status-upozorenje-rub: var(--semafor-zuta);
+  --status-greska-tekst: var(--semafor-crvena);
+  --status-greska-podloga: var(--semafor-crvena-podloga);
+  --status-greska-rub: var(--semafor-crvena-blijeda);
+}
+[data-theme="abysalto"] {
+  --akcent: #005ccc;
+  --akcent-tekst: #005ccc;
+  --akcent-tint: #ecf4ff;
+  --semafor-zelena-tekst: var(--semafor-zelena);
+  --semafor-plava-tekst: var(--semafor-plava);
+  --semafor-crvena-tekst: var(--semafor-crvena);
+  --semafor-neutralna-tekst: var(--muted);
+  --data-1: var(--smg);
+  --data-2: var(--smg-linija);
+  --data-3: var(--semafor-neutralna-blijeda);
+  --akcent-hover: #0049b8;
+  --surface-selected: var(--akcent-tint);
+  --status-info-tekst: var(--smg);
+  --status-info-podloga: var(--smg-tint);
+  --status-info-rub: var(--smg-linija);
+  --status-uspjeh-tekst: var(--semafor-zelena);
+  --status-uspjeh-podloga: var(--semafor-zelena-podloga);
+  --status-uspjeh-rub: var(--semafor-zelena-blijeda);
+  --status-upozorenje-tekst: var(--semafor-zuta-tekst);
+  --status-upozorenje-podloga: var(--semafor-zuta-podloga);
+  --status-upozorenje-rub: var(--semafor-zuta);
+  --status-greska-tekst: var(--semafor-crvena);
+  --status-greska-podloga: var(--semafor-crvena-podloga);
+  --status-greska-rub: var(--semafor-crvena-blijeda);
+}
+[data-theme="aig"] {
+  --akcent: #195c59;
+  --akcent-tekst: #195c59;
+  --akcent-tint: #eef5f5;
+  --semafor-zelena-tekst: var(--semafor-zelena);
+  --semafor-plava-tekst: var(--semafor-plava);
+  --semafor-crvena-tekst: var(--semafor-crvena);
+  --semafor-neutralna-tekst: var(--muted);
+  --data-1: var(--smg);
+  --data-2: var(--smg-linija);
+  --data-3: var(--semafor-neutralna-blijeda);
+  --akcent-hover: #004b49;
+  --surface-selected: var(--akcent-tint);
+  --status-info-tekst: var(--smg);
+  --status-info-podloga: var(--smg-tint);
+  --status-info-rub: var(--smg-linija);
+  --status-uspjeh-tekst: var(--semafor-zelena);
+  --status-uspjeh-podloga: var(--semafor-zelena-podloga);
+  --status-uspjeh-rub: var(--semafor-zelena-blijeda);
+  --status-upozorenje-tekst: var(--semafor-zuta-tekst);
+  --status-upozorenje-podloga: var(--semafor-zuta-podloga);
+  --status-upozorenje-rub: var(--semafor-zuta);
+  --status-greska-tekst: var(--semafor-crvena);
+  --status-greska-podloga: var(--semafor-crvena-podloga);
+  --status-greska-rub: var(--semafor-crvena-blijeda);
+}
+[data-theme="ekupi"] {
+  --akcent: #f35132;
+  --akcent-tekst: #d53e1f;
+  --akcent-tint: #ffefec;
+  --semafor-zelena-tekst: var(--semafor-zelena);
+  --semafor-plava-tekst: var(--semafor-plava);
+  --semafor-crvena-tekst: var(--semafor-crvena);
+  --semafor-neutralna-tekst: var(--muted);
+  --data-1: var(--smg);
+  --data-2: var(--smg-linija);
+  --data-3: var(--semafor-neutralna-blijeda);
+  --akcent-hover: #c02600;
+  --surface-selected: var(--akcent-tint);
+  --status-info-tekst: var(--smg);
+  --status-info-podloga: var(--smg-tint);
+  --status-info-rub: var(--smg-linija);
+  --status-uspjeh-tekst: var(--semafor-zelena);
+  --status-uspjeh-podloga: var(--semafor-zelena-podloga);
+  --status-uspjeh-rub: var(--semafor-zelena-blijeda);
+  --status-upozorenje-tekst: var(--semafor-zuta-tekst);
+  --status-upozorenje-podloga: var(--semafor-zuta-podloga);
+  --status-upozorenje-rub: var(--semafor-zuta);
+  --status-greska-tekst: var(--semafor-crvena);
+  --status-greska-podloga: var(--semafor-crvena-podloga);
+  --status-greska-rub: var(--semafor-crvena-blijeda);
+}
+:root {
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-48: 48px;
+  --space-64: 64px;
+  --radius-0: 0px;
+  --radius-pill: 999px;
+  --radius-round: 50%;
+  --rule-akcent: 4px;
+  --rule-hair: 1px;
+  --doc-max: 760px;
+  --slide-w: 1920px;
+  --control-h: 36px;
+  --control-h-sm: 28px;
+  --sidebar-w: 240px;
+  --header-h: 56px;
+  --content-max: 1440px;
+  --z-sticky: 900;
+  --z-dropdown: 1000;
+  --z-modal: 1100;
+  --z-toast: 1200;
+  --font-sans: "Inter Variable", Inter, Aptos, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+.smg-type-doc-title { font-family: var(--font-sans); font-size: 32px; line-height: 38px; font-weight: 700; letter-spacing: -0.5px; }
+.smg-type-doc-h1 { font-family: var(--font-sans); font-size: 22px; line-height: 28px; font-weight: 700; }
+.smg-type-doc-h2 { font-family: var(--font-sans); font-size: 17px; line-height: 24px; font-weight: 600; }
+.smg-type-eyebrow { font-family: var(--font-sans); font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: 1.5px; }
+.smg-type-body { font-family: var(--font-sans); font-size: 15px; line-height: 23px; font-weight: 400; }
+.smg-type-body-strong { font-family: var(--font-sans); font-size: 15px; line-height: 23px; font-weight: 600; }
+.smg-type-small { font-family: var(--font-sans); font-size: 12px; line-height: 17px; font-weight: 400; }
+.smg-type-kpi { font-family: var(--font-sans); font-size: 44px; line-height: 48px; font-weight: 700; letter-spacing: -1px; }
+.smg-type-kpi-label { font-family: var(--font-sans); font-size: 13px; line-height: 18px; font-weight: 500; }
+.smg-type-table-head { font-family: var(--font-sans); font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: 0.3px; }
+.smg-type-table { font-family: var(--font-sans); font-size: 13px; line-height: 18px; font-weight: 400; }
+.smg-type-slide-cover { font-family: var(--font-sans); font-size: 72px; line-height: 80px; font-weight: 700; letter-spacing: -1.5px; }
+.smg-type-slide-title { font-family: var(--font-sans); font-size: 48px; line-height: 56px; font-weight: 700; letter-spacing: -1px; }
+.smg-type-slide-subtitle { font-family: var(--font-sans); font-size: 28px; line-height: 36px; font-weight: 400; }
+.smg-type-slide-body { font-family: var(--font-sans); font-size: 24px; line-height: 34px; font-weight: 400; }
+.smg-type-slide-table { font-family: var(--font-sans); font-size: 20px; line-height: 28px; font-weight: 400; }
+.smg-type-slide-kpi { font-family: var(--font-sans); font-size: 96px; line-height: 96px; font-weight: 700; letter-spacing: -2px; }
+.smg-type-slide-source { font-family: var(--font-sans); font-size: 16px; line-height: 22px; font-weight: 400; }
+.smg-type-ui-h1 { font-family: var(--font-sans); font-size: 24px; line-height: 32px; font-weight: 600; letter-spacing: -0.3px; }
+.smg-type-ui-h2 { font-family: var(--font-sans); font-size: 18px; line-height: 26px; font-weight: 600; }
+.smg-type-ui-h3 { font-family: var(--font-sans); font-size: 15px; line-height: 22px; font-weight: 600; }
+.smg-type-ui-body { font-family: var(--font-sans); font-size: 14px; line-height: 20px; font-weight: 400; }
+.smg-type-ui-label { font-family: var(--font-sans); font-size: 13px; line-height: 18px; font-weight: 500; }
+.smg-type-ui-small { font-family: var(--font-sans); font-size: 12px; line-height: 16px; font-weight: 400; }
+.smg-type-ui-kpi { font-family: var(--font-sans); font-size: 32px; line-height: 40px; font-weight: 700; letter-spacing: -0.5px; }
+
+/* SMGrupa UI — stilovi komponenti. Samo semantički tokeni (var(--…)); nikad hex vrijednosti.
+   Klase imaju prefiks smg-. Tema: data-theme na korijenu (smg | msan | king | abysalto | aig | ekupi). */
+
+.smg-root, .smg-root * { box-sizing: border-box; }
+.smg-root {
+  font-family: var(--font-sans);
+  font-size: 14px; line-height: 20px;
+  color: var(--ink); background: var(--surface);
+  font-variant-numeric: tabular-nums;
+  -webkit-font-smoothing: antialiased;
+}
+.smg-root :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+/* ---------- AppShell ---------- */
+.smg-shell { display: grid; grid-template-columns: var(--sidebar-w) minmax(0, 1fr); min-height: 100vh; }
+.smg-sidebar { background: var(--surface-alt); border-right: 1px solid var(--border-soft); display: flex; flex-direction: column; position: sticky; top: 0; height: 100vh; z-index: var(--z-sticky); }
+.smg-sidebar__brand { height: var(--header-h); display: flex; align-items: center; gap: var(--space-8); padding: 0 var(--space-16); border-bottom: 1px solid var(--border-soft); }
+.smg-sidebar__mark { width: 4px; height: 20px; background: var(--akcent); }
+.smg-sidebar__name { font-weight: 700; font-size: 16px; letter-spacing: -0.2px; }
+.smg-sidebar__app { font-size: 12px; color: var(--ink-soft); }
+.smg-sidebar__nav { padding: var(--space-12) var(--space-8); display: flex; flex-direction: column; gap: 2px; flex: 1; overflow-y: auto; }
+.smg-sidebar__section { font-size: 12px; font-weight: 600; letter-spacing: 0.3px; color: var(--muted); padding: var(--space-16) var(--space-12) var(--space-4); text-transform: uppercase; }
+.smg-nav-item { display: flex; align-items: center; gap: var(--space-8); height: 36px; padding: 0 var(--space-12); color: var(--ink-soft); text-decoration: none; font-size: 13px; font-weight: 500; border-left: 3px solid transparent; cursor: pointer; background: none; border-top: 0; border-right: 0; border-bottom: 0; width: 100%; text-align: left; font-family: inherit; }
+.smg-nav-item:hover { background: var(--surface-hover); color: var(--ink); }
+.smg-nav-item[aria-current="page"] { background: var(--surface-selected); color: var(--ink); border-left-color: var(--akcent); font-weight: 600; }
+.smg-sidebar__foot { padding: var(--space-12) var(--space-16); border-top: 1px solid var(--border-soft); font-size: 12px; color: var(--muted); }
+.smg-main { min-width: 0; display: flex; flex-direction: column; }
+.smg-header { height: var(--header-h); display: flex; align-items: center; justify-content: space-between; gap: var(--space-16); padding: 0 var(--space-24); border-bottom: 1px solid var(--border-soft); background: var(--surface); position: sticky; top: 0; z-index: var(--z-sticky); }
+.smg-content { padding: var(--space-24); width: 100%; max-width: var(--content-max); }
+
+/* ---------- PageHeader ---------- */
+.smg-page-header { display: flex; justify-content: space-between; align-items: flex-end; gap: var(--space-16); margin-bottom: var(--space-24); flex-wrap: wrap; }
+.smg-page-header__eyebrow { font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: var(--akcent-tekst); margin: 0 0 var(--space-4); }
+.smg-page-header__title { font-size: 24px; line-height: 32px; font-weight: 600; letter-spacing: -0.3px; margin: 0; }
+.smg-page-header__desc { margin: var(--space-4) 0 0; color: var(--ink-soft); max-width: 720px; }
+.smg-page-header__actions { display: flex; gap: var(--space-8); }
+
+/* ---------- Button ---------- */
+.smg-btn { display: inline-flex; align-items: center; justify-content: center; gap: var(--space-8); height: var(--control-h); padding: 0 var(--space-16); border-radius: var(--radius-pill); border: 1px solid transparent; font-family: inherit; font-size: 14px; font-weight: 600; line-height: 1; cursor: pointer; white-space: nowrap; text-decoration: none; }
+.smg-btn--sm { height: var(--control-h-sm); padding: 0 var(--space-12); font-size: 13px; }
+.smg-btn--primary { background: var(--akcent-tekst); color: var(--on-akcent-tekst); }
+.smg-btn--primary:hover { background: var(--akcent-hover); }
+.smg-btn--secondary { background: var(--surface); color: var(--akcent-tekst); border-color: var(--akcent-tekst); }
+.smg-btn--secondary:hover { background: var(--akcent-tint); }
+.smg-btn--ghost { background: transparent; color: var(--ink); }
+.smg-btn--ghost:hover { background: var(--surface-hover); }
+.smg-btn--danger { background: var(--surface); color: var(--status-greska-tekst); border-color: var(--status-greska-tekst); }
+.smg-btn--danger:hover { background: var(--status-greska-podloga); }
+.smg-btn:disabled, .smg-btn[aria-disabled="true"] { background: var(--surface-disabled); color: var(--ink-disabled); border-color: transparent; cursor: not-allowed; }
+.smg-btn__spinner { width: 14px; height: 14px; border: 2px solid currentColor; border-right-color: transparent; border-radius: 50%; animation: smg-spin 0.7s linear infinite; }
+@keyframes smg-spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .smg-btn__spinner { animation-duration: 2s; } }
+
+/* ---------- Field, Input, Select, Textarea, Checkbox ---------- */
+.smg-field { display: flex; flex-direction: column; gap: var(--space-4); min-width: 0; }
+.smg-field__label { font-size: 13px; line-height: 18px; font-weight: 500; color: var(--ink); }
+.smg-field__req { color: var(--status-greska-tekst); margin-left: 2px; }
+.smg-field__hint { font-size: 12px; line-height: 16px; color: var(--muted); }
+.smg-field__error { font-size: 12px; line-height: 16px; color: var(--status-greska-tekst); font-weight: 500; }
+.smg-input, .smg-select, .smg-textarea { width: 100%; height: var(--control-h); padding: 0 var(--space-12); border: 1px solid var(--border-control); border-radius: 0; background: var(--surface); color: var(--ink); font: inherit; }
+.smg-textarea { height: auto; min-height: 88px; padding: var(--space-8) var(--space-12); resize: vertical; }
+.smg-select { appearance: none; padding-right: 32px; background-image: linear-gradient(45deg, transparent 50%, currentColor 50%), linear-gradient(135deg, currentColor 50%, transparent 50%); background-position: calc(100% - 16px) 50%, calc(100% - 11px) 50%; background-size: 5px 5px; background-repeat: no-repeat; }
+.smg-input::placeholder, .smg-textarea::placeholder { color: var(--muted); }
+.smg-input:focus-visible, .smg-select:focus-visible, .smg-textarea:focus-visible { outline: 2px solid var(--focus); outline-offset: 0; border-color: var(--focus); }
+.smg-input[aria-invalid="true"], .smg-select[aria-invalid="true"], .smg-textarea[aria-invalid="true"] { border-color: var(--status-greska-tekst); }
+.smg-input:disabled, .smg-select:disabled, .smg-textarea:disabled { background: var(--surface-disabled); color: var(--ink-disabled); cursor: not-allowed; }
+.smg-input--sm, .smg-select--sm { height: var(--control-h-sm); font-size: 13px; }
+.smg-check { display: inline-flex; align-items: center; gap: var(--space-8); cursor: pointer; font-size: 14px; }
+.smg-check input { width: 16px; height: 16px; margin: 0; accent-color: var(--akcent-tekst); }
+
+/* ---------- Card ---------- */
+.smg-card { background: var(--surface); border: 1px solid var(--border-soft); }
+.smg-card__head { display: flex; justify-content: space-between; align-items: center; gap: var(--space-12); padding: var(--space-16) var(--space-16) 0; }
+.smg-card__title { font-size: 18px; line-height: 26px; font-weight: 600; margin: 0; }
+.smg-card__sub { font-size: 12px; color: var(--muted); margin: 2px 0 0; }
+.smg-card__body { padding: var(--space-16); }
+.smg-card__foot { padding: var(--space-12) var(--space-16); border-top: 1px solid var(--border-soft); font-size: 12px; color: var(--muted); }
+
+/* ---------- KPI ---------- */
+.smg-kpi-grid { display: grid; gap: var(--space-16); grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+.smg-kpi { background: var(--surface-alt); border-top: 4px solid var(--akcent); padding: var(--space-16) var(--space-16) var(--space-16); }
+.smg-kpi__label { font-size: 13px; line-height: 18px; font-weight: 500; color: var(--ink-soft); margin: 0; }
+.smg-kpi__value { font-size: 32px; line-height: 40px; font-weight: 700; letter-spacing: -0.5px; margin: var(--space-4) 0 0; }
+.smg-kpi--istaknuto { background: var(--akcent-tint); }
+/* Brojka ostaje `ink` i kad je istaknuta: crveni akcent (M SAN, KING, eKupi) na brojci čitao bi se kao loš rezultat. */
+.smg-kpi__meta { display: flex; align-items: center; gap: var(--space-8); margin-top: var(--space-8); flex-wrap: wrap; }
+.smg-delta { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; line-height: 16px; font-weight: 600; padding: 2px var(--space-8); }
+.smg-delta--bolje { color: var(--status-uspjeh-tekst); background: var(--status-uspjeh-podloga); }
+.smg-delta--losije { color: var(--status-greska-tekst); background: var(--status-greska-podloga); }
+.smg-delta--neutralno { color: var(--ink-soft); background: var(--semafor-neutralna-podloga); }
+.smg-kpi__note { font-size: 12px; color: var(--muted); }
+
+/* ---------- Table ---------- */
+.smg-table-wrap { overflow-x: auto; border: 1px solid var(--border-soft); background: var(--surface); }
+.smg-table { width: 100%; border-collapse: collapse; font-size: 13px; line-height: 18px; }
+.smg-table th { position: sticky; top: 0; background: var(--surface-alt); color: var(--ink-soft); font-size: 12px; font-weight: 600; letter-spacing: 0.3px; text-transform: uppercase; text-align: left; padding: var(--space-8) var(--space-12); border-bottom: 1px solid var(--border); white-space: nowrap; }
+.smg-table th button { all: unset; cursor: pointer; display: inline-flex; gap: 4px; align-items: center; }
+.smg-table th button:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.smg-table td { padding: var(--space-8) var(--space-12); border-bottom: 1px solid var(--border-soft); vertical-align: middle; }
+.smg-table tbody tr:hover td { background: var(--surface-hover); }
+.smg-table tbody tr[aria-selected="true"] td { background: var(--surface-selected); }
+.smg-table .smg-num { text-align: right; white-space: nowrap; }
+.smg-table .smg-center { text-align: center; }
+.smg-table--compact td { padding: 4px var(--space-12); }
+.smg-table__empty { padding: var(--space-32); text-align: center; color: var(--ink-soft); }
+
+/* ---------- Semafor ---------- */
+.smg-sem { display: inline-flex; align-items: center; justify-content: center; min-width: 28px; height: 22px; padding: 0 var(--space-8); font-size: 12px; font-weight: 700; line-height: 1; white-space: nowrap; }
+.smg-sem--lg { min-width: 40px; height: 32px; font-size: 14px; }
+.smg-sem--zelena { background: var(--semafor-zelena); color: var(--on-inverse); }
+.smg-sem--plava { background: var(--semafor-plava); color: var(--on-inverse); }
+.smg-sem--zuta { background: var(--semafor-zuta); color: var(--ink); }
+.smg-sem--crvena { background: var(--semafor-crvena); color: var(--on-inverse); }
+.smg-sem--neutralna { background: var(--semafor-neutralna); color: var(--ink); }
+.smg-sem--zelena.smg-sem--prigusena { background: var(--semafor-zelena-prigusena); }
+.smg-sem--plava.smg-sem--prigusena { background: var(--semafor-plava-prigusena); }
+.smg-sem--zuta.smg-sem--prigusena { background: var(--semafor-zuta-prigusena); color: var(--on-inverse); }
+.smg-sem--crvena.smg-sem--prigusena { background: var(--semafor-crvena-prigusena); }
+.smg-sem--tekst.smg-sem--zelena { background: var(--semafor-zelena-podloga); color: var(--semafor-zelena-tekst); }
+.smg-sem--tekst.smg-sem--plava { background: var(--semafor-plava-podloga); color: var(--semafor-plava-tekst); }
+.smg-sem--tekst.smg-sem--zuta { background: var(--semafor-zuta-podloga); color: var(--semafor-zuta-tekst); }
+.smg-sem--tekst.smg-sem--crvena { background: var(--semafor-crvena-podloga); color: var(--semafor-crvena-tekst); }
+.smg-sem--tekst.smg-sem--neutralna { background: var(--semafor-neutralna-podloga); color: var(--ink-soft); }
+
+/* ---------- Alert ---------- */
+.smg-alert { display: flex; gap: var(--space-12); padding: var(--space-12) var(--space-16); border: 1px solid; font-size: 14px; line-height: 20px; }
+.smg-alert__icon { flex: none; width: 20px; height: 20px; margin-top: 0; }
+.smg-alert__title { font-weight: 600; margin: 0; }
+.smg-alert__body { margin: 2px 0 0; color: var(--ink); }
+.smg-alert--info { background: var(--status-info-podloga); border-color: var(--status-info-rub); color: var(--status-info-tekst); }
+.smg-alert--uspjeh { background: var(--status-uspjeh-podloga); border-color: var(--status-uspjeh-rub); color: var(--status-uspjeh-tekst); }
+.smg-alert--upozorenje { background: var(--status-upozorenje-podloga); border-color: var(--status-upozorenje-rub); color: var(--status-upozorenje-tekst); }
+.smg-alert--greska { background: var(--status-greska-podloga); border-color: var(--status-greska-rub); color: var(--status-greska-tekst); }
+
+/* ---------- Tag, CompanyTag ---------- */
+.smg-tag { display: inline-flex; align-items: center; gap: 6px; height: 24px; padding: 0 var(--space-12); border-radius: var(--radius-pill); font-size: 12px; font-weight: 500; background: var(--semafor-neutralna-podloga); color: var(--ink); white-space: nowrap; }
+.smg-tag--akcent { background: var(--akcent-tint); color: var(--ink); }
+.smg-tag--outline { background: var(--surface); border: 1px solid var(--border); }
+.smg-company { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
+.smg-company__dot { width: 10px; height: 10px; border-radius: 50%; flex: none; }
+
+/* ---------- Tabs ---------- */
+.smg-tabs { display: flex; gap: var(--space-4); border-bottom: 1px solid var(--border); margin-bottom: var(--space-16); }
+.smg-tab { all: unset; cursor: pointer; padding: var(--space-8) var(--space-12); font-size: 14px; font-weight: 500; color: var(--ink-soft); border-bottom: 3px solid transparent; margin-bottom: -1px; }
+.smg-tab:hover { color: var(--ink); }
+.smg-tab[aria-selected="true"] { color: var(--ink); font-weight: 600; border-bottom-color: var(--akcent); }
+.smg-tab:focus-visible { outline: 2px solid var(--focus); outline-offset: -2px; }
+
+/* ---------- EmptyState ---------- */
+.smg-empty { text-align: center; padding: var(--space-48) var(--space-24); color: var(--ink-soft); }
+.smg-empty__title { font-size: 15px; font-weight: 600; color: var(--ink); margin: 0 0 var(--space-4); }
+
+/* ---------- Toolbar (filtri) ---------- */
+.smg-toolbar { display: flex; flex-wrap: wrap; gap: var(--space-12); align-items: flex-end; margin-bottom: var(--space-16); }
+.smg-toolbar > .smg-field { width: 200px; }
+
+/* ---------- Pomoćne ---------- */
+.smg-stack { display: flex; flex-direction: column; gap: var(--space-16); }
+.smg-grid-2 { display: grid; gap: var(--space-16); grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); }
+.smg-muted { color: var(--muted); }
+.smg-source { font-size: 12px; line-height: 16px; color: var(--muted); margin-top: var(--space-8); }
+.smg-visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
+@media (max-width: 900px) {
+  .smg-shell { grid-template-columns: minmax(0, 1fr); }
+  .smg-sidebar { position: static; height: auto; }
+  .smg-sidebar__nav { flex-direction: row; overflow-x: auto; padding: var(--space-4) var(--space-8); }
+  .smg-sidebar__section, .smg-sidebar__foot { display: none; }
+  .smg-nav-item { width: auto; white-space: nowrap; border-left: 0; border-bottom: 3px solid transparent; }
+  .smg-nav-item[aria-current="page"] { border-bottom-color: var(--akcent); }
+  .smg-header { height: auto; min-height: var(--header-h); padding-top: var(--space-8); padding-bottom: var(--space-8); flex-wrap: wrap; }
+  .smg-content, .smg-header { padding-left: var(--space-16); padding-right: var(--space-16); }
+}

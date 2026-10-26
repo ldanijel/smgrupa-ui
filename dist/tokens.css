@@ -1,0 +1,259 @@
+/* SMGrupa UI — generirano iz tokens/tokens.json. Ne uređivati ručno. */
+:root,
+[data-theme="smg"] {
+  --akcent: #0b4f68;
+  --akcent-tekst: #0b4f68;
+  --on-akcent-tekst: #ffffff;
+  --akcent-tint: #eef5f8;
+  --smg: #0b4f68;
+  --smg-duboka: #003346;
+  --smg-linija: #84abbe;
+  --smg-tint: #eef5f8;
+  --tvrtka-msan: #e6382f;
+  --tvrtka-king: #a9252a;
+  --tvrtka-abysalto: #005ccc;
+  --tvrtka-aig: #195c59;
+  --tvrtka-aig-zlatna: #b79a0a;
+  --tvrtka-ekupi: #f35132;
+  --ink: #25272c;
+  --ink-soft: #666666;
+  --muted: #69727d;
+  --surface: #ffffff;
+  --surface-alt: #f8f8f8;
+  --surface-inverse: #25272c;
+  --on-inverse: #ffffff;
+  --on-inverse-muted: #c6c7ca;
+  --border: #cccccc;
+  --border-soft: #eeeeee;
+  --semafor-zelena: #0b7146;
+  --semafor-zelena-tekst: var(--semafor-zelena);
+  --semafor-zelena-podloga: #e3f6ea;
+  --semafor-zelena-blijeda: #8cbfa0;
+  --semafor-zelena-prigusena: #476854;
+  --semafor-plava: #215da5;
+  --semafor-plava-tekst: var(--semafor-plava);
+  --semafor-plava-podloga: #e5f1ff;
+  --semafor-plava-blijeda: #93b4dd;
+  --semafor-plava-prigusena: #475f7e;
+  --semafor-zuta: #f7b828;
+  --semafor-zuta-tekst: #955e11;
+  --semafor-zuta-podloga: #f9efde;
+  --semafor-zuta-blijeda: #c7ad7e;
+  --semafor-zuta-prigusena: #7f674d;
+  --semafor-crvena: #ac312c;
+  --semafor-crvena-tekst: var(--semafor-crvena);
+  --semafor-crvena-podloga: #ffeae7;
+  --semafor-crvena-blijeda: #d8a6a0;
+  --semafor-crvena-prigusena: #8b514a;
+  --semafor-neutralna: #9a9a9a;
+  --semafor-neutralna-tekst: var(--muted);
+  --semafor-neutralna-podloga: #ebebeb;
+  --semafor-neutralna-blijeda: #c6c6c6;
+  --data-1: var(--smg);
+  --data-2: var(--smg-linija);
+  --data-3: var(--semafor-neutralna-blijeda);
+  --focus: #0b4f68;
+  --akcent-hover: #003f57;
+  --surface-hover: #f2f3f5;
+  --surface-selected: var(--akcent-tint);
+  --border-control: #7a808a;
+  --ink-disabled: #9a9ea6;
+  --surface-disabled: #f2f3f5;
+  --scrim: rgba(37, 39, 44, 0.48);
+  --status-info-tekst: var(--smg);
+  --status-info-podloga: var(--smg-tint);
+  --status-info-rub: var(--smg-linija);
+  --status-uspjeh-tekst: var(--semafor-zelena);
+  --status-uspjeh-podloga: var(--semafor-zelena-podloga);
+  --status-uspjeh-rub: var(--semafor-zelena-blijeda);
+  --status-upozorenje-tekst: var(--semafor-zuta-tekst);
+  --status-upozorenje-podloga: var(--semafor-zuta-podloga);
+  --status-upozorenje-rub: var(--semafor-zuta);
+  --status-greska-tekst: var(--semafor-crvena);
+  --status-greska-podloga: var(--semafor-crvena-podloga);
+  --status-greska-rub: var(--semafor-crvena-blijeda);
+  --shadow-raised: 0px 1px 2px 0px rgba(37, 39, 44, 0.08);
+  --shadow-overlay: 0px 8px 24px 0px rgba(37, 39, 44, 0.16);
+}
+[data-theme="msan"] {
+  --akcent: #e6382f;
+  --akcent-tekst: #d62524;
+  --akcent-tint: #ffefed;
+  --semafor-zelena-tekst: var(--semafor-zelena);
+  --semafor-plava-tekst: var(--semafor-plava);
+  --semafor-crvena-tekst: var(--semafor-crvena);
+  --semafor-neutralna-tekst: var(--muted);
+  --data-1: var(--smg);
+  --data-2: var(--smg-linija);
+  --data-3: var(--semafor-neutralna-blijeda);
+  --akcent-hover: #c0000a;
+  --surface-selected: var(--akcent-tint);
+  --status-info-tekst: var(--smg);
+  --status-info-podloga: var(--smg-tint);
+  --status-info-rub: var(--smg-linija);
+  --status-uspjeh-tekst: var(--semafor-zelena);
+  --status-uspjeh-podloga: var(--semafor-zelena-podloga);
+  --status-uspjeh-rub: var(--semafor-zelena-blijeda);
+  --status-upozorenje-tekst: var(--semafor-zuta-tekst);
+  --status-upozorenje-podloga: var(--semafor-zuta-podloga);
+  --status-upozorenje-rub: var(--semafor-zuta);
+  --status-greska-tekst: var(--semafor-crvena);
+  --status-greska-podloga: var(--semafor-crvena-podloga);
+  --status-greska-rub: var(--semafor-crvena-blijeda);
+}
+[data-theme="king"] {
+  --akcent: #a9252a;
+  --akcent-tekst: #a9252a;
+  --akcent-tint: #ffefed;
+  --semafor-zelena-tekst: var(--semafor-zelena);
+  --semafor-plava-tekst: var(--semafor-plava);
+  --semafor-crvena-tekst: var(--semafor-crvena);
+  --semafor-neutralna-tekst: var(--muted);
+  --data-1: var(--smg);
+  --data-2: var(--smg-linija);
+  --data-3: var(--semafor-neutralna-blijeda);
+  --akcent-hover: #940618;
+  --surface-selected: var(--akcent-tint);
+  --status-info-tekst: var(--smg);
+  --status-info-podloga: var(--smg-tint);
+  --status-info-rub: var(--smg-linija);
+  --status-uspjeh-tekst: var(--semafor-zelena);
+  --status-uspjeh-podloga: var(--semafor-zelena-podloga);
+  --status-uspjeh-rub: var(--semafor-zelena-blijeda);
+  --status-upozorenje-tekst: var(--semafor-zuta-tekst);
+  --status-upozorenje-podloga: var(--semafor-zuta-podloga);
+  --status-upozorenje-rub: var(--semafor-zuta);
+  --status-greska-tekst: var(--semafor-crvena);
+  --status-greska-podloga: var(--semafor-crvena-podloga);
+  --status-greska-rub: var(--semafor-crvena-blijeda);
+}
+[data-theme="abysalto"] {
+  --akcent: #005ccc;
+  --akcent-tekst: #005ccc;
+  --akcent-tint: #ecf4ff;
+  --semafor-zelena-tekst: var(--semafor-zelena);
+  --semafor-plava-tekst: var(--semafor-plava);
+  --semafor-crvena-tekst: var(--semafor-crvena);
+  --semafor-neutralna-tekst: var(--muted);
+  --data-1: var(--smg);
+  --data-2: var(--smg-linija);
+  --data-3: var(--semafor-neutralna-blijeda);
+  --akcent-hover: #0049b8;
+  --surface-selected: var(--akcent-tint);
+  --status-info-tekst: var(--smg);
+  --status-info-podloga: var(--smg-tint);
+  --status-info-rub: var(--smg-linija);
+  --status-uspjeh-tekst: var(--semafor-zelena);
+  --status-uspjeh-podloga: var(--semafor-zelena-podloga);
+  --status-uspjeh-rub: var(--semafor-zelena-blijeda);
+  --status-upozorenje-tekst: var(--semafor-zuta-tekst);
+  --status-upozorenje-podloga: var(--semafor-zuta-podloga);
+  --status-upozorenje-rub: var(--semafor-zuta);
+  --status-greska-tekst: var(--semafor-crvena);
+  --status-greska-podloga: var(--semafor-crvena-podloga);
+  --status-greska-rub: var(--semafor-crvena-blijeda);
+}
+[data-theme="aig"] {
+  --akcent: #195c59;
+  --akcent-tekst: #195c59;
+  --akcent-tint: #eef5f5;
+  --semafor-zelena-tekst: var(--semafor-zelena);
+  --semafor-plava-tekst: var(--semafor-plava);
+  --semafor-crvena-tekst: var(--semafor-crvena);
+  --semafor-neutralna-tekst: var(--muted);
+  --data-1: var(--smg);
+  --data-2: var(--smg-linija);
+  --data-3: var(--semafor-neutralna-blijeda);
+  --akcent-hover: #004b49;
+  --surface-selected: var(--akcent-tint);
+  --status-info-tekst: var(--smg);
+  --status-info-podloga: var(--smg-tint);
+  --status-info-rub: var(--smg-linija);
+  --status-uspjeh-tekst: var(--semafor-zelena);
+  --status-uspjeh-podloga: var(--semafor-zelena-podloga);
+  --status-uspjeh-rub: var(--semafor-zelena-blijeda);
+  --status-upozorenje-tekst: var(--semafor-zuta-tekst);
+  --status-upozorenje-podloga: var(--semafor-zuta-podloga);
+  --status-upozorenje-rub: var(--semafor-zuta);
+  --status-greska-tekst: var(--semafor-crvena);
+  --status-greska-podloga: var(--semafor-crvena-podloga);
+  --status-greska-rub: var(--semafor-crvena-blijeda);
+}
+[data-theme="ekupi"] {
+  --akcent: #f35132;
+  --akcent-tekst: #d53e1f;
+  --akcent-tint: #ffefec;
+  --semafor-zelena-tekst: var(--semafor-zelena);
+  --semafor-plava-tekst: var(--semafor-plava);
+  --semafor-crvena-tekst: var(--semafor-crvena);
+  --semafor-neutralna-tekst: var(--muted);
+  --data-1: var(--smg);
+  --data-2: var(--smg-linija);
+  --data-3: var(--semafor-neutralna-blijeda);
+  --akcent-hover: #c02600;
+  --surface-selected: var(--akcent-tint);
+  --status-info-tekst: var(--smg);
+  --status-info-podloga: var(--smg-tint);
+  --status-info-rub: var(--smg-linija);
+  --status-uspjeh-tekst: var(--semafor-zelena);
+  --status-uspjeh-podloga: var(--semafor-zelena-podloga);
+  --status-uspjeh-rub: var(--semafor-zelena-blijeda);
+  --status-upozorenje-tekst: var(--semafor-zuta-tekst);
+  --status-upozorenje-podloga: var(--semafor-zuta-podloga);
+  --status-upozorenje-rub: var(--semafor-zuta);
+  --status-greska-tekst: var(--semafor-crvena);
+  --status-greska-podloga: var(--semafor-crvena-podloga);
+  --status-greska-rub: var(--semafor-crvena-blijeda);
+}
+:root {
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-48: 48px;
+  --space-64: 64px;
+  --radius-0: 0px;
+  --radius-pill: 999px;
+  --radius-round: 50%;
+  --rule-akcent: 4px;
+  --rule-hair: 1px;
+  --doc-max: 760px;
+  --slide-w: 1920px;
+  --control-h: 36px;
+  --control-h-sm: 28px;
+  --sidebar-w: 240px;
+  --header-h: 56px;
+  --content-max: 1440px;
+  --z-sticky: 900;
+  --z-dropdown: 1000;
+  --z-modal: 1100;
+  --z-toast: 1200;
+  --font-sans: "Inter Variable", Inter, Aptos, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+.smg-type-doc-title { font-family: var(--font-sans); font-size: 32px; line-height: 38px; font-weight: 700; letter-spacing: -0.5px; }
+.smg-type-doc-h1 { font-family: var(--font-sans); font-size: 22px; line-height: 28px; font-weight: 700; }
+.smg-type-doc-h2 { font-family: var(--font-sans); font-size: 17px; line-height: 24px; font-weight: 600; }
+.smg-type-eyebrow { font-family: var(--font-sans); font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: 1.5px; }
+.smg-type-body { font-family: var(--font-sans); font-size: 15px; line-height: 23px; font-weight: 400; }
+.smg-type-body-strong { font-family: var(--font-sans); font-size: 15px; line-height: 23px; font-weight: 600; }
+.smg-type-small { font-family: var(--font-sans); font-size: 12px; line-height: 17px; font-weight: 400; }
+.smg-type-kpi { font-family: var(--font-sans); font-size: 44px; line-height: 48px; font-weight: 700; letter-spacing: -1px; }
+.smg-type-kpi-label { font-family: var(--font-sans); font-size: 13px; line-height: 18px; font-weight: 500; }
+.smg-type-table-head { font-family: var(--font-sans); font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: 0.3px; }
+.smg-type-table { font-family: var(--font-sans); font-size: 13px; line-height: 18px; font-weight: 400; }
+.smg-type-slide-cover { font-family: var(--font-sans); font-size: 72px; line-height: 80px; font-weight: 700; letter-spacing: -1.5px; }
+.smg-type-slide-title { font-family: var(--font-sans); font-size: 48px; line-height: 56px; font-weight: 700; letter-spacing: -1px; }
+.smg-type-slide-subtitle { font-family: var(--font-sans); font-size: 28px; line-height: 36px; font-weight: 400; }
+.smg-type-slide-body { font-family: var(--font-sans); font-size: 24px; line-height: 34px; font-weight: 400; }
+.smg-type-slide-table { font-family: var(--font-sans); font-size: 20px; line-height: 28px; font-weight: 400; }
+.smg-type-slide-kpi { font-family: var(--font-sans); font-size: 96px; line-height: 96px; font-weight: 700; letter-spacing: -2px; }
+.smg-type-slide-source { font-family: var(--font-sans); font-size: 16px; line-height: 22px; font-weight: 400; }
+.smg-type-ui-h1 { font-family: var(--font-sans); font-size: 24px; line-height: 32px; font-weight: 600; letter-spacing: -0.3px; }
+.smg-type-ui-h2 { font-family: var(--font-sans); font-size: 18px; line-height: 26px; font-weight: 600; }
+.smg-type-ui-h3 { font-family: var(--font-sans); font-size: 15px; line-height: 22px; font-weight: 600; }
+.smg-type-ui-body { font-family: var(--font-sans); font-size: 14px; line-height: 20px; font-weight: 400; }
+.smg-type-ui-label { font-family: var(--font-sans); font-size: 13px; line-height: 18px; font-weight: 500; }
+.smg-type-ui-small { font-family: var(--font-sans); font-size: 12px; line-height: 16px; font-weight: 400; }
+.smg-type-ui-kpi { font-family: var(--font-sans); font-size: 32px; line-height: 40px; font-weight: 700; letter-spacing: -0.5px; }
